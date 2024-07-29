@@ -1,13 +1,5 @@
 load("@aspect_rules_py//py:defs.bzl", "py_binary")
 
-# filegroup(
-#     name = "data",
-#     srcs = glob([
-#         "*",
-#     ]),
-#     allow_empty = False,
-# )
-
 py_binary(
     name = "build_wheel",
     srcs = [
